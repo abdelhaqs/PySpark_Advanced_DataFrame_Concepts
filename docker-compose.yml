@@ -1,0 +1,10 @@
+version: '3'
+services:
+  pyspark-jupyter:
+    image: jupyter/pyspark-notebook
+    container_name: pyspark-jupyter-container
+    ports:
+      - "8888:8888"
+    volumes:
+      - "C:/Users/chris/Desktop/PySpark_Advanced_DataFrame_Concepts/notebooks:/home/jovyan/work/notebooks"
+      - "C:/Users/chris/Desktop/PySpark_Advanced_DataFrame_Concepts/notebooks/datasets:/home/jovyan/work/notebooks/datasets"
