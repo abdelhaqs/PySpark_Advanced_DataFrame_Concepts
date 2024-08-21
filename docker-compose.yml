@@ -6,5 +6,5 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - "C:/Users/chris/Desktop/PySpark_Advanced_DataFrame_Concepts/notebooks:/home/jovyan/work/notebooks"
-      - "C:/Users/chris/Desktop/PySpark_Advanced_DataFrame_Concepts/notebooks/datasets:/home/jovyan/work/notebooks/datasets"
+      - "./notebooks:/home/jovyan/work/notebooks"
+      - "./notebooks/datasets:/home/jovyan/work/notebooks/datasets"
