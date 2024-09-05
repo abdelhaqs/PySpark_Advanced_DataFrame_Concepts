@@ -1,2 +1,3 @@
 *.txt
 *.parquet
+!notebooks/datasets/yellow_taxis_daily/parquet/*.parquet
