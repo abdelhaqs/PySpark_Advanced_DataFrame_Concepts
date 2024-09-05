@@ -1,4 +1,4 @@
-# PySpark Advanced DataFrame Concepts
+# PySpark Advanced DataFrame Concepts 
 
 This project provides a Docker-based setup to explore advanced PySpark DataFrame concepts using Jupyter notebooks. The environment includes all necessary dependencies, making it easy to get started with PySpark for data processing and analysis.
 
