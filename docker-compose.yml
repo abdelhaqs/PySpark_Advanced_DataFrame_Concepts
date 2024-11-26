@@ -8,3 +8,4 @@ services:
     volumes:
       - "./notebooks:/home/jovyan/work/notebooks"
       - "./notebooks/datasets:/home/jovyan/work/notebooks/datasets"
+    command: start-notebook.sh --NotebookApp.token=''
